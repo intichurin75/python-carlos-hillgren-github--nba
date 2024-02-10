@@ -9,6 +9,7 @@ print(squares)
 
 plt.plot(numbers,squares)
 plt.show()
+plt.plot(numbers,squares)
 plt.title("x^2 for positive integers 0-9")
 plt.xlabel("x")
 plt.ylabel("y")
