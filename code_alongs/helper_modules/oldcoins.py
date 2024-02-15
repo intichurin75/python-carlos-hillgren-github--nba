@@ -3,7 +3,7 @@ class OldCoinsStash:
         self.owner = owner
 
         # these attributes are "private" - only allow to access them in the class
-        self._riksdaler = 5
+        self._riksdaler = 0
         self._skilling = 0
 
     def deposit(self, riksdaler, skilling):
