@@ -1,7 +1,10 @@
-temp = int(input("What is the temp outside?: "))
+import math
+def pythagoras(a,b):
+    c2 = a*a + b*b
+    c = math.sqrt(c2)
+    return c
 
-if not(temp >= 0 and temp <= 30):
-    print("the temp is good today")
+hypotenusan = pythagoras(3,4)
+print(f"Triangelns hypotenusa är: {hypotenusan} längd enheter")
 
-elif not(temp < 0 or temp > 30):
-    print("The temp is bad today, stay inside or die!")
+dir(math)
