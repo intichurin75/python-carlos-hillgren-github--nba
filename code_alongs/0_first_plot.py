@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 numbers = list(range(10))
 
-squares = [numbers**2 for numbers in numbers]
+squares = [number**2 for number in numbers]
 
 print(numbers)
 print(squares)
